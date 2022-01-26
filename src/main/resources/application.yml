@@ -5,5 +5,9 @@ spring:
       suffix: .jsp
 server:
   servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
     context-path: /br
   port: 11111

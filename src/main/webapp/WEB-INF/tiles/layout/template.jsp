@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/vendors/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/app.css">
+    
+    <!-- angularjs -->
+    <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/angularjs/1.6.9/angular.js"></script>
 </head>
 
 <body>
