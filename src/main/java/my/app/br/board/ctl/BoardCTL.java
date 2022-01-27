@@ -1,4 +1,4 @@
-package my.app.board.ctl;
+package my.app.br.board.ctl;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

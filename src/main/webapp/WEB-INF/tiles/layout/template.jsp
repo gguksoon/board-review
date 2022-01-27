@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <!DOCTYPE html>
 <html>
@@ -17,6 +17,13 @@
     
     <!-- angularjs -->
     <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/angularjs/1.6.9/angular.js"></script>
+    
+    <!-- jquery -->
+    <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- jstree -->
+    <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/jstree/3.3.12/jstree.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/webjars/jstree/3.3.12/themes/default/style.min.css">
 </head>
 
 <body>
@@ -40,7 +47,7 @@
             </div>
         </div>
         <div id="main" class='layout-navbar'>
-            <header class='mb-3'>
+            <header>
                 <tiles:insertAttribute name="header"/>
             </header>
             <div id="main-content">

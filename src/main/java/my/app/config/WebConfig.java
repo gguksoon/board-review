@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.BeanNameViewResolver;
+import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles3.TilesView;
 import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
@@ -18,6 +19,12 @@ public class WebConfig implements WebMvcConfigurer {
 		BeanNameViewResolver viewResolver = new BeanNameViewResolver();
 		viewResolver.setOrder(0);
 		return viewResolver;
+	}
+	
+	// jackson
+    @Bean
+	public MappingJackson2JsonView jsonView() {
+		return new MappingJackson2JsonView();
 	}
 	
 	// tiles

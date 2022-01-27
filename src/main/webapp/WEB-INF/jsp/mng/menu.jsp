@@ -5,14 +5,9 @@
 <div class="page-heading" ng-app="app" ng-controller="ctl" ng-cloak>
 	<div class="page-title">
 		<div class="row">
-			<div class="col-12 col-md-6 order-md-1 order-last">
+			<div class="col-12 order-md-1 order-last">
 				<h3>{{test}}</h3>
-				<p class="text-subtitle text-muted">Navbar will appear in top of
-					the page.</p>
-			</div>
-			<div class="col-12 col-md-6 order-md-2 order-first">
-				<nav aria-label="breadcrumb"
-					class="breadcrumb-header float-start float-lg-end">
+				<nav aria-label="breadcrumb" class="breadcrumb-header float-start">
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
 						<li class="breadcrumb-item active" aria-current="page">Layout

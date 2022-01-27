@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <nav class="navbar navbar-expand navbar-light ">
 	<div class="container-fluid">
 		<a href="#" class="burger-btn d-block"> <i
